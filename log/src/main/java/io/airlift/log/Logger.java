@@ -33,6 +33,9 @@ public class Logger
         this.logger = logger;
     }
 
+    public static Logger fake(){
+        
+    }
     /**
      * Gets a logger named after a class' fully qualified name.
      *
